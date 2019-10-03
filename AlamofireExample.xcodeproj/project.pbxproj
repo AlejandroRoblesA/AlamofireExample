@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A9D6A0AA234587840094790F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6A0A9234587840094790F /* AppDelegate.swift */; };
 		A9D6A0AC234587840094790F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6A0AB234587840094790F /* SceneDelegate.swift */; };
 		A9D6A0AE234587840094790F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6A0AD234587840094790F /* ViewController.swift */; };
-		A9D6A0B1234587840094790F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D6A0AF234587840094790F /* Main.storyboard */; };
 		A9D6A0B3234587860094790F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D6A0B2234587860094790F /* Assets.xcassets */; };
 		A9D6A0B6234587860094790F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D6A0B4234587860094790F /* LaunchScreen.storyboard */; };
 		C9394FF143048EF71C33E229 /* Pods_AlamofireExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5FCD77BEDCF08B6BA3F80B /* Pods_AlamofireExample.framework */; };
@@ -23,7 +22,6 @@
 		A9D6A0A9234587840094790F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9D6A0AB234587840094790F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9D6A0AD234587840094790F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9D6A0B0234587840094790F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9D6A0B2234587860094790F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D6A0B5234587860094790F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D6A0B7234587860094790F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,8 +54,36 @@
 				DC84B8B0749A2BDD7815FEBB /* Pods-AlamofireExample.debug.xcconfig */,
 				78E799FAD1A8A9C859CD27C6 /* Pods-AlamofireExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A92F91FE2345898B00372846 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A92F91FF2345899500372846 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A92F92002345899B00372846 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A92F920123458A0700372846 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A9D6A0B7234587860094790F /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		A9D6A09D234587830094790F = {
@@ -83,11 +109,13 @@
 			children = (
 				A9D6A0A9234587840094790F /* AppDelegate.swift */,
 				A9D6A0AB234587840094790F /* SceneDelegate.swift */,
+				A92F91FE2345898B00372846 /* Model */,
+				A92F91FF2345899500372846 /* View */,
+				A92F92002345899B00372846 /* Controller */,
 				A9D6A0AD234587840094790F /* ViewController.swift */,
-				A9D6A0AF234587840094790F /* Main.storyboard */,
+				A92F920123458A0700372846 /* SupportingFiles */,
 				A9D6A0B2234587860094790F /* Assets.xcassets */,
 				A9D6A0B4234587860094790F /* LaunchScreen.storyboard */,
-				A9D6A0B7234587860094790F /* Info.plist */,
 			);
 			path = AlamofireExample;
 			sourceTree = "<group>";
@@ -154,7 +182,6 @@
 			files = (
 				A9D6A0B6234587860094790F /* LaunchScreen.storyboard in Resources */,
 				A9D6A0B3234587860094790F /* Assets.xcassets in Resources */,
-				A9D6A0B1234587840094790F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A9D6A0AF234587840094790F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9D6A0B0234587840094790F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9D6A0B4234587860094790F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,7 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3RKND3ZKAJ;
-				INFOPLIST_FILE = AlamofireExample/Info.plist;
+				INFOPLIST_FILE = /Users/alejandro/Desktop/AlamofireExample/AlamofireExample/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,7 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3RKND3ZKAJ;
-				INFOPLIST_FILE = AlamofireExample/Info.plist;
+				INFOPLIST_FILE = /Users/alejandro/Desktop/AlamofireExample/AlamofireExample/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
