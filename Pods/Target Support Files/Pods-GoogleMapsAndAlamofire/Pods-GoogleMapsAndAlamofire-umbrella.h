@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AlamofireExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AlamofireExampleVersionString[];
+FOUNDATION_EXPORT double Pods_GoogleMapsAndAlamofireVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_GoogleMapsAndAlamofireVersionString[];
 

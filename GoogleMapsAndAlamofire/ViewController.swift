@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  AlamofireExample
+//  GoogleMapsAndAlamofire
 //
 //  Created by Alejandro on 10/2/19.
-//  Copyright © 2019 Alejandro. All rights reserved.
+//  Copyright © 2019 Alejandro Robles. All rights reserved.
 //
 
 import UIKit

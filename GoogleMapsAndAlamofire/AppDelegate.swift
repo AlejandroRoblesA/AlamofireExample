@@ -1,12 +1,14 @@
 //
 //  AppDelegate.swift
-//  AlamofireExample
+//  GoogleMapsAndAlamofire
 //
 //  Created by Alejandro on 10/2/19.
-//  Copyright © 2019 Alejandro. All rights reserved.
+//  Copyright © 2019 Alejandro Robles. All rights reserved.
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey("AIzaSyBJSluuMfvP8uJNqI-4dd6sVdHyZmYD0W4")
+        GMSPlacesClient.provideAPIKey("AIzaSyBJSluuMfvP8uJNqI-4dd6sVdHyZmYD0W4")
+        
         return true
     }
 

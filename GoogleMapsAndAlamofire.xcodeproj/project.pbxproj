@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B08C66F6EB987C049EBB1DD /* Pods_GoogleMapsAndAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9D12DDC565172FB88D179C /* Pods_GoogleMapsAndAlamofire.framework */; };
 		A9D6A0AA234587840094790F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6A0A9234587840094790F /* AppDelegate.swift */; };
 		A9D6A0AC234587840094790F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6A0AB234587840094790F /* SceneDelegate.swift */; };
 		A9D6A0AE234587840094790F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6A0AD234587840094790F /* ViewController.swift */; };
 		A9D6A0B3234587860094790F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D6A0B2234587860094790F /* Assets.xcassets */; };
 		A9D6A0B6234587860094790F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D6A0B4234587860094790F /* LaunchScreen.storyboard */; };
-		C9394FF143048EF71C33E229 /* Pods_AlamofireExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5FCD77BEDCF08B6BA3F80B /* Pods_AlamofireExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C5FCD77BEDCF08B6BA3F80B /* Pods_AlamofireExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0B2ADCFC0DFEBFAB4AD284 /* Pods-GoogleMapsAndAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsAndAlamofire.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9D12DDC565172FB88D179C /* Pods_GoogleMapsAndAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsAndAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E799FAD1A8A9C859CD27C6 /* Pods-AlamofireExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireExample.release.xcconfig"; path = "Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample.release.xcconfig"; sourceTree = "<group>"; };
 		A9D6A0A6234587840094790F /* GoogleMapsAndAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsAndAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D6A0A9234587840094790F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +26,7 @@
 		A9D6A0B2234587860094790F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D6A0B5234587860094790F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D6A0B7234587860094790F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4814659A808E4C4D1146431 /* Pods-GoogleMapsAndAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsAndAlamofire.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire.release.xcconfig"; sourceTree = "<group>"; };
 		DC84B8B0749A2BDD7815FEBB /* Pods-AlamofireExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireExample.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9394FF143048EF71C33E229 /* Pods_AlamofireExample.framework in Frameworks */,
+				6B08C66F6EB987C049EBB1DD /* Pods_GoogleMapsAndAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +45,7 @@
 		263EB1EB9710E38597EC2DF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2C5FCD77BEDCF08B6BA3F80B /* Pods_AlamofireExample.framework */,
+				6F9D12DDC565172FB88D179C /* Pods_GoogleMapsAndAlamofire.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -53,6 +55,8 @@
 			children = (
 				DC84B8B0749A2BDD7815FEBB /* Pods-AlamofireExample.debug.xcconfig */,
 				78E799FAD1A8A9C859CD27C6 /* Pods-AlamofireExample.release.xcconfig */,
+				1B0B2ADCFC0DFEBFAB4AD284 /* Pods-GoogleMapsAndAlamofire.debug.xcconfig */,
+				B4814659A808E4C4D1146431 /* Pods-GoogleMapsAndAlamofire.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,7 +155,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				ORGANIZATIONNAME = Alejandro;
+				ORGANIZATIONNAME = "Alejandro Robles";
 				TargetAttributes = {
 					A9D6A0A5234587830094790F = {
 						CreatedOnToolsVersion = 11.0;
@@ -204,7 +208,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AlamofireExample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMapsAndAlamofire-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,15 +221,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9D26E52C00BE033683E6947A /* [CP] Embed Pods Frameworks */ = {
@@ -234,15 +238,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -388,12 +392,12 @@
 		};
 		A9D6A0BB234587860094790F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC84B8B0749A2BDD7815FEBB /* Pods-AlamofireExample.debug.xcconfig */;
+			baseConfigurationReference = 1B0B2ADCFC0DFEBFAB4AD284 /* Pods-GoogleMapsAndAlamofire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3RKND3ZKAJ;
-				INFOPLIST_FILE = /Users/alejandro/Desktop/AlamofireExample/AlamofireExample/SupportingFiles/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GoogleMapsAndAlamofire/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,12 +411,12 @@
 		};
 		A9D6A0BC234587860094790F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78E799FAD1A8A9C859CD27C6 /* Pods-AlamofireExample.release.xcconfig */;
+			baseConfigurationReference = B4814659A808E4C4D1146431 /* Pods-GoogleMapsAndAlamofire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3RKND3ZKAJ;
-				INFOPLIST_FILE = /Users/alejandro/Desktop/AlamofireExample/AlamofireExample/SupportingFiles/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GoogleMapsAndAlamofire/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
