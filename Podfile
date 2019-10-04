@@ -8,5 +8,7 @@ target 'AlamofireExample' do
   # Pods for AlamofireExample
 
 pod 'Alamofire'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
 
 end
