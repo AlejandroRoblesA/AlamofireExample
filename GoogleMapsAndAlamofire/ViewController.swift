@@ -10,6 +10,16 @@ import UIKit
 import GoogleMaps
 
 class ViewController: UIViewController {
+    
+    var userLocation: CLLocation!
+    var mapView:       GMSMapView!
+    var zoomCamara:    Float = 17.0
+    var anguloCamara   = 0.0
+    var bearingCamara  = 0.0
+    
+    var userCurrentLocationButton(){
+    
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +38,15 @@ class ViewController: UIViewController {
         marker.title = "Sydney"
         marker.snippet = "Australia"
         marker.map = mapView
+        
+        handleUserCurrentLocation()
+    }
+    
+    func handleUserCurrentLocation(){
+        if userLocation != nil {
+            let camera = GMSCameraPosition(target: userLocation.coordinate, zoom: zoomCamara, bearing: bearingCamara, viewingAngle: anguloCamara)
+            mapView.animate(to: camera)
+        }
     }
 }
 
