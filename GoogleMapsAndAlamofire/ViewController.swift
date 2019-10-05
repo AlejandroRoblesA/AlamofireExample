@@ -17,14 +17,24 @@ class ViewController: UIViewController {
     var anguloCamara   = 0.0
     var bearingCamara  = 0.0
     
-    var userCurrentLocationButton(){
-    
-    }
+    let userCurrentLocationButton: UIButton = {
+        let button = UIButton()
+        button.backgroundColor = .black
+        button.clipsToBounds = true
+        button.layer.cornerRadius = 20
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         drawGoogleMap()
+        
+        userCurrentLocationButton.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -30).isActive = true
+        userCurrentLocationButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30).isActive = true
+        userCurrentLocationButton.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        userCurrentLocationButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
     }
     
     func drawGoogleMap(){
