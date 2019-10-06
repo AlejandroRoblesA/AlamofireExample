@@ -13,6 +13,7 @@
 		A9D6A0AE234587840094790F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6A0AD234587840094790F /* ViewController.swift */; };
 		A9D6A0B3234587860094790F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D6A0B2234587860094790F /* Assets.xcassets */; };
 		A9D6A0B6234587860094790F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D6A0B4234587860094790F /* LaunchScreen.storyboard */; };
+		A9DD7D53234862E700F028FB /* estiloMapa.json in Resources */ = {isa = PBXBuildFile; fileRef = A9DD7D52234862E700F028FB /* estiloMapa.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A9D6A0B2234587860094790F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D6A0B5234587860094790F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D6A0B7234587860094790F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DD7D52234862E700F028FB /* estiloMapa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = estiloMapa.json; sourceTree = "<group>"; };
 		B4814659A808E4C4D1146431 /* Pods-GoogleMapsAndAlamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsAndAlamofire.release.xcconfig"; path = "Target Support Files/Pods-GoogleMapsAndAlamofire/Pods-GoogleMapsAndAlamofire.release.xcconfig"; sourceTree = "<group>"; };
 		DC84B8B0749A2BDD7815FEBB /* Pods-AlamofireExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireExample.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireExample/Pods-AlamofireExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 		A92F920123458A0700372846 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				A9DD7D52234862E700F028FB /* estiloMapa.json */,
 				A9D6A0B7234587860094790F /* Info.plist */,
 			);
 			path = SupportingFiles;
@@ -185,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9DD7D53234862E700F028FB /* estiloMapa.json in Resources */,
 				A9D6A0B6234587860094790F /* LaunchScreen.storyboard in Resources */,
 				A9D6A0B3234587860094790F /* Assets.xcassets in Resources */,
 			);

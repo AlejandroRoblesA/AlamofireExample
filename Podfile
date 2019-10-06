@@ -7,7 +7,7 @@ target 'GoogleMapsAndAlamofire' do
 
   # Pods for AlamofireExample
 
-pod 'Alamofire'
+pod 'Alamofire', '~> 5.0.0-rc.2'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
 
