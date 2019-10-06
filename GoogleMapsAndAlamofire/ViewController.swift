@@ -12,6 +12,7 @@ import GooglePlaces
 
 class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate {
     
+    var mapView: GMSMapView?
     
     let userCurrentLocationButton: UIButton = {
         let button = UIButton()
@@ -19,6 +20,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
         button.clipsToBounds = true
         button.layer.cornerRadius = 22.5
         button.setImage(UIImage(named: "currentLocation"), for: .normal)
+//        button.addTarget(self, action:, for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -28,7 +30,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
         
         drawGoogleMap()
         userCurrentLocationButtonConstraints()
-        
+        navigationItemBarSettings()
+    }
+    
+    func navigationItemBarSettings(){
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next place", style: .plain, target: self, action:  #selector(handleNextLocation))
     }
     
     func userCurrentLocationButtonConstraints(){
@@ -43,17 +49,27 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
     
     func drawGoogleMap(){
         
-        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
-        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        let camera = GMSCameraPosition.camera(withLatitude: 19.432895, longitude: -99.133194, zoom: 17)
+        mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         view = mapView
         
-        let currentLocation = CLLocationCoordinate2DMake(-33.86, 151.20)
+        let currentLocation = CLLocationCoordinate2DMake(19.432895, -99.133194)
         let marker = GMSMarker(position: currentLocation)
         marker.title = "You are here"
+        marker.snippet = "Somewhere..."
         marker.map = mapView
         
     }
     
+    @objc func handleNextLocation(){
+//        19.295879, -99.210608
+        let nextLocation = CLLocationCoordinate2DMake(19.295879, -99.210608)
+        mapView?.camera = GMSCameraPosition.camera(withLatitude: nextLocation.latitude, longitude: nextLocation.longitude, zoom: 17)
+        
+        let marker = GMSMarker(position: nextLocation)
+        marker.title = "Six"
+        marker.map = mapView
+    }
     
 }
 
